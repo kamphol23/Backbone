@@ -1,0 +1,87 @@
+body {
+	background-color:#F5EFED;
+	font-size: 18px;
+	 }
+#logingButton{
+	margin-top: 20px;
+	margin-right: 20px;
+	float: right;
+	border-radius: 2px;
+}
+
+.contanier {
+	background-color: #FFFFFF;
+	max-width: 1060px;
+	margin: 20px auto;
+}
+
+.headerMenu {
+	height: 60px;
+	background-color:#D84A05;
+ }
+ .headerMenu ul#menuList {
+	list-style: none;
+	display: flex;
+margin-left: 60px;
+}
+.headerMenu ul#menuList li {
+	padding: 10px 20px;
+	border-radius: 5px 5px;
+}
+
+.headerMenu li.selectedTab {
+	background-color:#EEB902;
+}
+.headerMenu ul#menuList li:hover, button:hover, a:hover {
+	color: #b3b3b3;
+	cursor: pointer;
+}
+
+
+#manuForTheFood, #Beställning {
+	/* background-color: rgb(48, 47, 49); */
+	padding: 20px;
+}
+#mainContent {
+
+	padding: 20px;
+}
+#mainContent button {
+	padding: 5px 10px;
+	border-radius: 3px;
+	margin: 5px 10px;
+}
+#Beställning li span, #Beställning li label {
+	 cursor: pointer;
+}
+#Beställning li {
+	list-style: none;
+	margin: 10px 0;
+	padding: 10px;
+	border-bottom: 1px solid rgb(73, 38, 107);
+}
+#Beställning li span {
+	float: right;
+	margin: 0 10px;
+}
+
+#Beställning {
+	margin: 5px 20px;
+	padding: 4px 8px;
+	border-radius: 3px;
+}
+#Beställning button{
+	margin: 10px;
+	height: 20px;
+	border-radius: 3px;
+}
+#Beställning input[type=text] {
+	background:snow;
+	color: #black;
+	width: 250px;
+}
+
+.center {
+	margin: 0 auto;
+	text-align: center;
+}
